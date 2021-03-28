@@ -2,7 +2,15 @@
 namespace PointAndLines
 {
     class Point {
-        public int X;
+        public int x;
+        public int X{
+            get{
+                return x;
+            }
+            set{
+                x = value;
+            }
+        }
         public int y;
         private int z;
     
